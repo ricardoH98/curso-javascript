@@ -2,5 +2,8 @@
     "type": "module",
     "scripts": {
         "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^30.0.4"
     }
 }

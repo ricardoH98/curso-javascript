@@ -5,7 +5,9 @@ Vídeo: https://youtu.be/iJvLAZ8MJ2E?t=25938
 
 /* Video de referencia para configurar jest: https://www.youtube.com/watch?v=_DzBez4qMi0 */
 
-const sum = require('./21-testing')
+// Para correr los test se usa el comando npm test
+
+const sum = require('./21-testing.js')
 
 test("Suma de 3 + 5 tiene que ser 8", () => {
     expect(sum(3, 5)).toBe(8)
